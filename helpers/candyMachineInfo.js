@@ -1,5 +1,5 @@
 export const candyMachineAddress = "0xbd3ebbc735bd76b551c5d5f94642d59cf1e1dff9ba9d17878164fefbbf7fbbc9";
-export const collectionName = "Test collection"; // Case sensitive!
+export const collectionName = "????"; // Case sensitive!
 export const collectionCoverUrl = "https://cloudflare-ipfs.com/ipfs/QmdPiu2Humo3nXMgyWoKrYQxWjJKhHLPkNEdjjVScbXtPK";
 export const mode = "mainnet"; // "dev" or "test" or "mainnet"
 
