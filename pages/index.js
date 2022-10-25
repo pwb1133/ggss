@@ -160,11 +160,7 @@ export default function Home() {
                 <span style={{width: "15px", height: "15px", borderRadius: "50%", background: candyMachineData.data.isPublic ? "green" : "red"}}></span>
               </div>
               <div className="d-flex flex-column align-items-center my-3">
-                <h3 style={{textDecoration: "underline"}}>Presale In:</h3>
-                <h6>{timeLeftToMint.presale === "LIVE" ? "LIVE" : timeLeftToMint.presale.days + " days : " + timeLeftToMint.presale.hours + " hours : " + timeLeftToMint.presale.minutes + " minutes : " + timeLeftToMint.presale.seconds + " seconds"}</h6>
-              </div>
-              <div className="d-flex flex-column align-items-center my-3">
-                <h3 style={{textDecoration: "underline"}}>Public In:</h3>
+                <h3 style={{textDecoration: "underline"}}>MINT In:</h3>
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " days : " + timeLeftToMint.public.hours + " hours : " + timeLeftToMint.public.minutes + " minutes : " + timeLeftToMint.public.seconds + " seconds"}</h6>
               </div>
             </>}
