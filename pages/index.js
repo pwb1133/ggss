@@ -159,7 +159,6 @@ export default function Home() {
                 <h4 className="mx-3 mb-0">{candyMachineData.data.mintFee * mintInfo.numToMint} $APT</h4>
                 <span style={{width: "15px", height: "15px", borderRadius: "50%", background: candyMachineData.data.isPublic ? "green" : "red"}}></span>
               </div>
-              <h5>{candyMachineData.data.numMintedTokens}/{candyMachineData.data.numUploadedTokens} minted</h5>
               <div className="d-flex flex-column align-items-center my-3">
                 <h3 style={{textDecoration: "underline"}}>Presale In:</h3>
                 <h6>{timeLeftToMint.presale === "LIVE" ? "LIVE" : timeLeftToMint.presale.days + " days : " + timeLeftToMint.presale.hours + " hours : " + timeLeftToMint.presale.minutes + " minutes : " + timeLeftToMint.presale.seconds + " seconds"}</h6>
